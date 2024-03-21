@@ -6,10 +6,12 @@
     display: flex;
     flex-direction: row;
 }
-.allBoxes{
+
+.allBoxes {
     position: absolute;
     z-index: 0;
 }
+
 .navTopBoxes>div {
     background-color: #6b9395;
     margin: 1vw;
@@ -31,11 +33,12 @@
     flex-grow: 4;
 }
 
-.svgGraphic{
-    position: absolute;
+.svgGraphic {
+    position: relative;
     top: 5vw;
     left: 8vw;
-    max-width: 60vw;
+    height: 40vh;
+    max-height: 50vh;
     z-index: 1;
 }
 
@@ -45,8 +48,7 @@ label.radio {
 }
 
 .formArea {
-    position:relative;
-    top: 80vh;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    position: relative;
+    top: 12em;
+    left: 1em;
 }
