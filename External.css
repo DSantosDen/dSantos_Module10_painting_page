@@ -1,0 +1,52 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navTopBoxes {
+    display: flex;
+    flex-direction: row;
+}
+.allBoxes{
+    position: absolute;
+    z-index: 0;
+}
+.navTopBoxes>div {
+    background-color: #6b9395;
+    margin: 1vw;
+    padding: 15vh;
+    flex-grow: 4;
+}
+
+.navMidBox {
+    background-color: #6b9395;
+    margin: 1vw;
+    padding: 20vh;
+    flex-grow: 4;
+}
+
+.navLowerBox {
+    background-color: #99f378;
+    margin: 1vw;
+    padding: 3vh;
+    flex-grow: 4;
+}
+
+.svgGraphic{
+    position: absolute;
+    top: 5vw;
+    left: 8vw;
+    max-width: 60vw;
+    z-index: 1;
+}
+
+label.radio {
+    float: left;
+    clear: both;
+}
+
+.formArea {
+    position:relative;
+    top: 80vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
