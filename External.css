@@ -8,8 +8,8 @@
 }
 
 .allBoxes {
-    position: absolute;
-    z-index: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .navTopBoxes>div {
@@ -34,7 +34,7 @@
 }
 
 .svgGraphic {
-    position: relative;
+    position: absolute;
     top: 5vw;
     left: 8vw;
     height: 40vh;
@@ -47,8 +47,6 @@ label.radio {
     clear: both;
 }
 
-.formArea {
-    position: relative;
-    top: 12em;
-    left: 1em;
+input {
+    margin: 2vh;
 }
