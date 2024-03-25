@@ -1,52 +1,65 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navTopBoxes {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .allBoxes {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-.navTopBoxes>div {
-    background-color: #6b9395;
-    margin: 1vw;
-    padding: 15vh;
-    flex-grow: 4;
+.navTopBoxes > div {
+  background-color: #6b9395;
+  margin: 1vw;
+  padding: 15vh;
+  flex-grow: 4;
 }
 
 .navMidBox {
-    background-color: #6b9395;
-    margin: 1vw;
-    padding: 20vh;
-    flex-grow: 4;
+  background-color: #6b9395;
+  margin: 1vw;
+  padding: 20vh;
+  flex-grow: 4;
 }
 
 .navLowerBox {
-    background-color: #99f378;
-    margin: 1vw;
-    padding: 3vh;
-    flex-grow: 4;
+  background-color: #99f378;
+  margin: 1vw;
+  padding: 3vh;
+  flex-grow: 4;
 }
 
 .svgGraphic {
-    position: absolute;
-    top: 5vw;
-    left: 8vw;
-    height: 40vh;
-    max-height: 50vh;
-    z-index: 1;
+  position: absolute;
+  top: 5vw;
+  left: 8vw;
+  height: 40vh;
+  max-height: 50vh;
+  z-index: 1;
 }
 
 label.radio {
-    float: left;
-    clear: both;
+  float: left;
+  clear: both;
 }
 
 input {
-    margin: 2vh;
+  margin: 2vh;
+}
+
+.submitText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    border: 2px solid #6b9395;
+}
+
+h1{
+    font-size: 1rem;
 }
